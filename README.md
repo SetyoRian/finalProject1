@@ -5,6 +5,12 @@
 
 Membuat aplikasi Reflection yang dimana aplikasi ini digunakan untuk mencatat dan mengukur target - target pencapaian seseorang.
 
+## Group 9
+
+- Setyo Wahyu Trianto --> INJS-KS03-006
+- Syamsul Badri Abdullah --> INJS-KS03-012
+- Fangki Igo Pramana --> INJS-KS03-023
+
 ## Features
 
 - POST /api/v1/users/register -> Registrasi User
@@ -32,23 +38,3 @@ cd finalProject1
 npm install
 npm run start
 ```
-
-## Structure
-
-📦finalProject1
- ┣ 📂src
- ┃ ┣ 📂config
- ┃ ┃ ┗ 📜db.js
- ┃ ┣ 📂controllers
- ┃ ┃ ┣ 📜reflectionControllers.js
- ┃ ┃ ┗ 📜userControllers.js
- ┃ ┣ 📂helpers
- ┃ ┃ ┗ 📜jwt.js
- ┃ ┣ 📂middlewares
- ┃ ┃ ┗ 📜authentication.js
- ┃ ┣ 📂routes
- ┃ ┃ ┗ 📜index.js
- ┃ ┗ 📜index.js
- ┣ 📜.gitignore
- ┣ 📜package-lock.json
- ┗ 📜package.json
